@@ -1,0 +1,20 @@
+{
+    "name": "jadu/photon-example-theme",
+    "description": "Jadu Galaxies example Photon theme",
+    "license": "proprietary",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "config": {
+        "platform": {
+            "php": "5.6"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "ExampleTheme\\": "src/ExampleTheme"
+        }
+    }
+}

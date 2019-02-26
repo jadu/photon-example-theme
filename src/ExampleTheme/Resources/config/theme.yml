@@ -1,0 +1,22 @@
+name: Example
+author: Jadu Ltd
+description: An example theme for Photon.
+screenshot: images/preview.png
+settings:
+  logo:
+    type: image
+    label: Site logo
+    notes: 'Specify the logo to be used within the theme (minimum recommended size 35px x 35px)'
+  background:
+    type: image
+    label: Site banner image
+    notes: 'The image to be used for the themes index page banner (minimum recommended size 1920px x 1080px)'
+  banner-text:
+    type: text
+    label: Site banner text
+    notes: 'The text to be displayed on top of your sites index page banner (if left empty defaults to site name)'
+credits: 
+  Jadu
+machine-name: jadu-example
+bundle-class-name: ExampleTheme\ExampleThemeBundle
+tags: html5, responsive

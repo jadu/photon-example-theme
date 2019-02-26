@@ -1,0 +1,11 @@
+services:
+    photon_example.theme:
+        class: ExampleTheme\Theme\ExampleTheme
+        tags:
+            - { name: photon.theme }
+
+    photon_example.page.theme_demo:
+        class: ExampleTheme\Page\UtilitiesContent\ThemeDemoController
+        parent: photon.controller.page
+        tags:
+           - { name: photon.page, page_name: theme_demo }

@@ -1,0 +1,4 @@
+meeting_list:
+    path: /theme-demo
+    defaults:
+        _controller: photon_example.page.theme_demo
